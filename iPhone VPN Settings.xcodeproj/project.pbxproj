@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		EA27FA090ECB4349007A84A7 /* cisco-decrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA080ECB4349007A84A7 /* cisco-decrypt.c */; };
+		EA27FA140ECB44B5007A84A7 /* dictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA110ECB44B5007A84A7 /* dictionary.c */; };
+		EA27FA150ECB44B5007A84A7 /* iniparser.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA130ECB44B5007A84A7 /* iniparser.c */; };
+		EA27FA1B0ECB4501007A84A7 /* README in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA160ECB4501007A84A7 /* README */; };
+		EA27FA1C0ECB4501007A84A7 /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA170ECB4501007A84A7 /* INSTALL */; };
+		EA27FA1D0ECB4501007A84A7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA180ECB4501007A84A7 /* LICENSE */; };
+		EA27FA1F0ECB4501007A84A7 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA1A0ECB4501007A84A7 /* AUTHORS */; };
+		EA27FA210ECB4545007A84A7 /* gpl-2.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */; };
+		EA27FA550ECB489E007A84A7 /* JHVPNSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA540ECB489E007A84A7 /* JHVPNSettingsController.m */; };
+		EA27FA570ECB48AF007A84A7 /* ipone-vpn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA560ECB48AF007A84A7 /* ipone-vpn.tiff */; };
+		EA27FA7E0ECB8B26007A84A7 /* JHDragWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA7D0ECB8B26007A84A7 /* JHDragWindow.m */; };
+		EA27FA890ECB9755007A84A7 /* JHNondragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA880ECB9755007A84A7 /* JHNondragImageView.m */; };
+		EA5D002A0ECCAD9A00CFB4B6 /* libgcrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D00280ECCAD9A00CFB4B6 /* libgcrypt.a */; };
+		EA5D002B0ECCAD9A00CFB4B6 /* libgpg-error.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D00290ECCAD9A00CFB4B6 /* libgpg-error.a */; };
+		EA5D003C0ED30F5600CFB4B6 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D003B0ED30F5600CFB4B6 /* libintl.a */; };
+		EA5D003E0ED30F8F00CFB4B6 /* libiconv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D003D0ED30F8F00CFB4B6 /* libiconv.a */; };
+		EA5DFFE90ECCA5E100CFB4B6 /* iphone-vpn-settings.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA5DFFE80ECCA5E100CFB4B6 /* iphone-vpn-settings.icns */; };
+		EA6E7ADF0ED4651F0033E3EC /* libiconv.dll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E7ADD0ED4651F0033E3EC /* libiconv.dll.a */; };
+		EA6E7AE00ED4651F0033E3EC /* libiconv.la in Resources */ = {isa = PBXBuildFile; fileRef = EA6E7ADE0ED4651F0033E3EC /* libiconv.la */; };
+		EA9FC1690ED37E5800D806B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		EA9FC16A0ED37E5800D806B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		EA9FC16B0ED37E5800D806B3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA160ECB4501007A84A7 /* README */; };
+		EA9FC16C0ED37E5800D806B3 /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA170ECB4501007A84A7 /* INSTALL */; };
+		EA9FC16D0ED37E5800D806B3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA180ECB4501007A84A7 /* LICENSE */; };
+		EA9FC16E0ED37E5800D806B3 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA1A0ECB4501007A84A7 /* AUTHORS */; };
+		EA9FC16F0ED37E5800D806B3 /* gpl-2.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */; };
+		EA9FC1700ED37E5800D806B3 /* ipone-vpn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA27FA560ECB48AF007A84A7 /* ipone-vpn.tiff */; };
+		EA9FC1710ED37E5800D806B3 /* iphone-vpn-settings.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA5DFFE80ECCA5E100CFB4B6 /* iphone-vpn-settings.icns */; };
+		EA9FC1730ED37E5800D806B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		EA9FC1740ED37E5800D806B3 /* cisco-decrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA080ECB4349007A84A7 /* cisco-decrypt.c */; };
+		EA9FC1750ED37E5800D806B3 /* dictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA110ECB44B5007A84A7 /* dictionary.c */; };
+		EA9FC1760ED37E5800D806B3 /* iniparser.c in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA130ECB44B5007A84A7 /* iniparser.c */; };
+		EA9FC1770ED37E5800D806B3 /* JHVPNSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA540ECB489E007A84A7 /* JHVPNSettingsController.m */; };
+		EA9FC1780ED37E5800D806B3 /* JHDragWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA7D0ECB8B26007A84A7 /* JHDragWindow.m */; };
+		EA9FC1790ED37E5800D806B3 /* JHNondragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27FA880ECB9755007A84A7 /* JHNondragImageView.m */; };
+		EA9FC17B0ED37E5800D806B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		EA9FC2180ED38B1E00D806B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		EA9FC21A0ED38B2E00D806B3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		EA9FC2290ED38BDC00D806B3 /* libgcrypt.dll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FC2260ED38BD600D806B3 /* libgcrypt.dll.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		EA9FC1940ED3805500D806B3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = org.cocotron.1.0.windows.i386.gcc.default;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* iPhone VPN Settings_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iPhone VPN Settings_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* iPhone VPN Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone VPN Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27F9D60ECB42A3007A84A7 /* sample.pcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.pcf; sourceTree = "<group>"; };
+		EA27FA070ECB4349007A84A7 /* cisco-decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cisco-decrypt.h"; sourceTree = "<group>"; };
+		EA27FA080ECB4349007A84A7 /* cisco-decrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "cisco-decrypt.c"; sourceTree = "<group>"; };
+		EA27FA100ECB44B5007A84A7 /* iniparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iniparser.h; sourceTree = "<group>"; };
+		EA27FA110ECB44B5007A84A7 /* dictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dictionary.c; sourceTree = "<group>"; };
+		EA27FA120ECB44B5007A84A7 /* dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionary.h; sourceTree = "<group>"; };
+		EA27FA130ECB44B5007A84A7 /* iniparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iniparser.c; sourceTree = "<group>"; };
+		EA27FA160ECB4501007A84A7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		EA27FA170ECB4501007A84A7 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		EA27FA180ECB4501007A84A7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA27FA1A0ECB4501007A84A7 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gpl-2.0.txt"; sourceTree = "<group>"; };
+		EA27FA530ECB489E007A84A7 /* JHVPNSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHVPNSettingsController.h; sourceTree = "<group>"; };
+		EA27FA540ECB489E007A84A7 /* JHVPNSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHVPNSettingsController.m; sourceTree = "<group>"; };
+		EA27FA560ECB48AF007A84A7 /* ipone-vpn.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "ipone-vpn.tiff"; sourceTree = "<group>"; };
+		EA27FA7C0ECB8B26007A84A7 /* JHDragWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDragWindow.h; sourceTree = "<group>"; };
+		EA27FA7D0ECB8B26007A84A7 /* JHDragWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDragWindow.m; sourceTree = "<group>"; };
+		EA27FA870ECB9755007A84A7 /* JHNondragImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNondragImageView.h; sourceTree = "<group>"; };
+		EA27FA880ECB9755007A84A7 /* JHNondragImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNondragImageView.m; sourceTree = "<group>"; };
+		EA5D00280ECCAD9A00CFB4B6 /* libgcrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgcrypt.a; sourceTree = "<group>"; };
+		EA5D00290ECCAD9A00CFB4B6 /* libgpg-error.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libgpg-error.a"; sourceTree = "<group>"; };
+		EA5D003B0ED30F5600CFB4B6 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libintl.a; sourceTree = "<group>"; };
+		EA5D003D0ED30F8F00CFB4B6 /* libiconv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiconv.a; sourceTree = "<group>"; };
+		EA5DFFE80ECCA5E100CFB4B6 /* iphone-vpn-settings.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iphone-vpn-settings.icns"; sourceTree = "<group>"; };
+		EA6E7ADD0ED4651F0033E3EC /* libiconv.dll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiconv.dll.a; sourceTree = "<group>"; };
+		EA6E7ADE0ED4651F0033E3EC /* libiconv.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libiconv.la; sourceTree = "<group>"; };
+		EA9FC1840ED37E5800D806B3 /* iPhone VPN Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone VPN Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9FC1860ED37E5800D806B3 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		EA9FC2260ED38BD600D806B3 /* libgcrypt.dll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgcrypt.dll.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				EA5D002A0ECCAD9A00CFB4B6 /* libgcrypt.a in Frameworks */,
+				EA5D002B0ECCAD9A00CFB4B6 /* libgpg-error.a in Frameworks */,
+				EA5D003C0ED30F5600CFB4B6 /* libintl.a in Frameworks */,
+				EA5D003E0ED30F8F00CFB4B6 /* libiconv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9FC17A0ED37E5800D806B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9FC2290ED38BDC00D806B3 /* libgcrypt.dll.a in Frameworks */,
+				EA9FC17B0ED37E5800D806B3 /* Cocoa.framework in Frameworks */,
+				EA9FC2180ED38B1E00D806B3 /* Foundation.framework in Frameworks */,
+				EA9FC21A0ED38B2E00D806B3 /* AppKit.framework in Frameworks */,
+				EA6E7ADF0ED4651F0033E3EC /* libiconv.dll.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA27FA530ECB489E007A84A7 /* JHVPNSettingsController.h */,
+				EA27FA540ECB489E007A84A7 /* JHVPNSettingsController.m */,
+				EA27FA7C0ECB8B26007A84A7 /* JHDragWindow.h */,
+				EA27FA7D0ECB8B26007A84A7 /* JHDragWindow.m */,
+				EA27FA870ECB9755007A84A7 /* JHNondragImageView.h */,
+				EA27FA880ECB9755007A84A7 /* JHNondragImageView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* iPhone VPN Settings.app */,
+				EA9FC1840ED37E5800D806B3 /* iPhone VPN Settings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iPhone VPN Settings */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				EA27F9D60ECB42A3007A84A7 /* sample.pcf */,
+			);
+			name = "iPhone VPN Settings";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iPhone VPN Settings_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				EA27FA0D0ECB4486007A84A7 /* Vendor */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA5DFFE80ECCA5E100CFB4B6 /* iphone-vpn-settings.icns */,
+				EA27FA560ECB48AF007A84A7 /* ipone-vpn.tiff */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				EA9FC1860ED37E5800D806B3 /* Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9FC1880ED37F7B00D806B3 /* Windows Libraries */,
+				EA27FA4D0ECB46A8007A84A7 /* Linked Libraries */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA27FA0D0ECB4486007A84A7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EA27FA0F0ECB44A9007A84A7 /* iniParser */,
+				EA27FA0E0ECB449E007A84A7 /* cisco-decrypt */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		EA27FA0E0ECB449E007A84A7 /* cisco-decrypt */ = {
+			isa = PBXGroup;
+			children = (
+				EA27FA070ECB4349007A84A7 /* cisco-decrypt.h */,
+				EA27FA080ECB4349007A84A7 /* cisco-decrypt.c */,
+				EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */,
+			);
+			name = "cisco-decrypt";
+			sourceTree = "<group>";
+		};
+		EA27FA0F0ECB44A9007A84A7 /* iniParser */ = {
+			isa = PBXGroup;
+			children = (
+				EA27FA160ECB4501007A84A7 /* README */,
+				EA27FA170ECB4501007A84A7 /* INSTALL */,
+				EA27FA180ECB4501007A84A7 /* LICENSE */,
+				EA27FA1A0ECB4501007A84A7 /* AUTHORS */,
+				EA27FA100ECB44B5007A84A7 /* iniparser.h */,
+				EA27FA110ECB44B5007A84A7 /* dictionary.c */,
+				EA27FA120ECB44B5007A84A7 /* dictionary.h */,
+				EA27FA130ECB44B5007A84A7 /* iniparser.c */,
+			);
+			name = iniParser;
+			sourceTree = "<group>";
+		};
+		EA27FA4D0ECB46A8007A84A7 /* Linked Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D003D0ED30F8F00CFB4B6 /* libiconv.a */,
+				EA5D003B0ED30F5600CFB4B6 /* libintl.a */,
+				EA5D00280ECCAD9A00CFB4B6 /* libgcrypt.a */,
+				EA5D00290ECCAD9A00CFB4B6 /* libgpg-error.a */,
+			);
+			name = "Linked Libraries";
+			sourceTree = "<group>";
+		};
+		EA9FC1880ED37F7B00D806B3 /* Windows Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E7ADD0ED4651F0033E3EC /* libiconv.dll.a */,
+				EA6E7ADE0ED4651F0033E3EC /* libiconv.la */,
+				EA9FC2260ED38BD600D806B3 /* libgcrypt.dll.a */,
+			);
+			name = "Windows Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* iPhone VPN Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iPhone VPN Settings" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhone VPN Settings";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "iPhone VPN Settings";
+			productReference = 8D1107320486CEB800E47090 /* iPhone VPN Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9FC1670ED37E5800D806B3 /* iPhone VPN Settings - Windows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9FC1810ED37E5800D806B3 /* Build configuration list for PBXNativeTarget "iPhone VPN Settings - Windows" */;
+			buildPhases = (
+				EA9FC1680ED37E5800D806B3 /* Resources */,
+				EA9FC1720ED37E5800D806B3 /* Sources */,
+				EA9FC17A0ED37E5800D806B3 /* Frameworks */,
+				EA9FC22D0ED38C9000D806B3 /* ShellScript */,
+			);
+			buildRules = (
+				EA9FC1940ED3805500D806B3 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "iPhone VPN Settings - Windows";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "iPhone VPN Settings";
+			productReference = EA9FC1840ED37E5800D806B3 /* iPhone VPN Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhone VPN Settings" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iPhone VPN Settings */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* iPhone VPN Settings */,
+				EA9FC1670ED37E5800D806B3 /* iPhone VPN Settings - Windows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				EA27FA1B0ECB4501007A84A7 /* README in Resources */,
+				EA27FA1C0ECB4501007A84A7 /* INSTALL in Resources */,
+				EA27FA1D0ECB4501007A84A7 /* LICENSE in Resources */,
+				EA27FA1F0ECB4501007A84A7 /* AUTHORS in Resources */,
+				EA27FA210ECB4545007A84A7 /* gpl-2.0.txt in Resources */,
+				EA27FA570ECB48AF007A84A7 /* ipone-vpn.tiff in Resources */,
+				EA5DFFE90ECCA5E100CFB4B6 /* iphone-vpn-settings.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9FC1680ED37E5800D806B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9FC1690ED37E5800D806B3 /* InfoPlist.strings in Resources */,
+				EA9FC16A0ED37E5800D806B3 /* MainMenu.xib in Resources */,
+				EA9FC16B0ED37E5800D806B3 /* README in Resources */,
+				EA9FC16C0ED37E5800D806B3 /* INSTALL in Resources */,
+				EA9FC16D0ED37E5800D806B3 /* LICENSE in Resources */,
+				EA9FC16E0ED37E5800D806B3 /* AUTHORS in Resources */,
+				EA9FC16F0ED37E5800D806B3 /* gpl-2.0.txt in Resources */,
+				EA9FC1700ED37E5800D806B3 /* ipone-vpn.tiff in Resources */,
+				EA9FC1710ED37E5800D806B3 /* iphone-vpn-settings.icns in Resources */,
+				EA6E7AE00ED4651F0033E3EC /* libiconv.la in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA9FC22D0ED38C9000D806B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Developer/Cocotron/1.0/bin/retargetBundle -F /Developer/Cocotron/1.0/Windows/i386/Frameworks -framework Foundation -framework AppKit -framework Cocoa -destination \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				EA27FA090ECB4349007A84A7 /* cisco-decrypt.c in Sources */,
+				EA27FA140ECB44B5007A84A7 /* dictionary.c in Sources */,
+				EA27FA150ECB44B5007A84A7 /* iniparser.c in Sources */,
+				EA27FA550ECB489E007A84A7 /* JHVPNSettingsController.m in Sources */,
+				EA27FA7E0ECB8B26007A84A7 /* JHDragWindow.m in Sources */,
+				EA27FA890ECB9755007A84A7 /* JHNondragImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9FC1720ED37E5800D806B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9FC1730ED37E5800D806B3 /* main.m in Sources */,
+				EA9FC1740ED37E5800D806B3 /* cisco-decrypt.c in Sources */,
+				EA9FC1750ED37E5800D806B3 /* dictionary.c in Sources */,
+				EA9FC1760ED37E5800D806B3 /* iniparser.c in Sources */,
+				EA9FC1770ED37E5800D806B3 /* JHVPNSettingsController.m in Sources */,
+				EA9FC1780ED37E5800D806B3 /* JHDragWindow.m in Sources */,
+				EA9FC1790ED37E5800D806B3 /* JHNondragImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone VPN Settings_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-L./";
+				PRODUCT_NAME = "iPhone VPN Settings";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone VPN Settings_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-L./";
+				PRODUCT_NAME = "iPhone VPN Settings";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		EA9FC1820ED37E5800D806B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Windows";
+				EXECUTABLE_SUFFIX = .exe;
+				FRAMEWORK_SEARCH_PATHS = /Developer/Cocotron/1.0/Windows/i386/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iPhone VPN Settings_Prefix.pch";
+				INFOPLIST_FILE = "/Users/jhohle/Projects/Sandbox/iPhone VPN Settings/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+					"\"$(SRCROOT)\"",
+				);
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-L./";
+				OTHER_LDFLAGS = (
+					"-Wl,--enable-auto-import",
+					"-mwindows",
+					"-mconsole",
+				);
+				PRODUCT_NAME = "iPhone VPN Settings";
+				SDKROOT = "";
+				SYMROOT = build/Windows;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		EA9FC1830ED37E5800D806B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Windows";
+				EXECUTABLE_SUFFIX = .exe;
+				FRAMEWORK_SEARCH_PATHS = /Developer/Cocotron/1.0/Windows/i386/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iPhone VPN Settings_Prefix.pch";
+				INFOPLIST_FILE = "/Users/jhohle/Projects/Sandbox/iPhone VPN Settings/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)\\\"",
+					"\"$(SRCROOT)\"",
+				);
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-L./";
+				OTHER_LDFLAGS = (
+					"-Wl,--enable-auto-import",
+					"-mwindows",
+					"-mconsole",
+				);
+				PRODUCT_NAME = "iPhone VPN Settings";
+				SDKROOT = "";
+				SYMROOT = build/Windows;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iPhone VPN Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPhone VPN Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9FC1810ED37E5800D806B3 /* Build configuration list for PBXNativeTarget "iPhone VPN Settings - Windows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9FC1820ED37E5800D806B3 /* Debug */,
+				EA9FC1830ED37E5800D806B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
