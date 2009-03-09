@@ -1,0 +1,7 @@
+iPhone VPN Settings is a utility for reading Cisco Client Configuration (.pcf) files and displaying the appropriate settings for iPhone.
+
+This utility relies on cisco-decrypt by Maurice Massar and iniParser by Nicolas Devillard.
+
+iPhone VPN Setting was written by Jonathan Hohle.
+
+This utility is distributed under GPL v 2.0.
