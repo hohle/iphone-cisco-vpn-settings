@@ -77,14 +77,14 @@
 		EA27F9D60ECB42A3007A84A7 /* sample.pcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.pcf; sourceTree = "<group>"; };
 		EA27FA070ECB4349007A84A7 /* cisco-decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cisco-decrypt.h"; sourceTree = "<group>"; };
 		EA27FA080ECB4349007A84A7 /* cisco-decrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "cisco-decrypt.c"; sourceTree = "<group>"; };
-		EA27FA100ECB44B5007A84A7 /* iniparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iniparser.h; sourceTree = "<group>"; };
-		EA27FA110ECB44B5007A84A7 /* dictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dictionary.c; sourceTree = "<group>"; };
-		EA27FA120ECB44B5007A84A7 /* dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionary.h; sourceTree = "<group>"; };
-		EA27FA130ECB44B5007A84A7 /* iniparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iniparser.c; sourceTree = "<group>"; };
-		EA27FA160ECB4501007A84A7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		EA27FA170ECB4501007A84A7 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
-		EA27FA180ECB4501007A84A7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EA27FA1A0ECB4501007A84A7 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		EA27FA100ECB44B5007A84A7 /* iniparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iniparser.h; path = Vendor/iniParser/iniparser.h; sourceTree = "<group>"; };
+		EA27FA110ECB44B5007A84A7 /* dictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dictionary.c; path = Vendor/iniParser/dictionary.c; sourceTree = "<group>"; };
+		EA27FA120ECB44B5007A84A7 /* dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dictionary.h; path = Vendor/iniParser/dictionary.h; sourceTree = "<group>"; };
+		EA27FA130ECB44B5007A84A7 /* iniparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iniparser.c; path = Vendor/iniParser/iniparser.c; sourceTree = "<group>"; };
+		EA27FA160ECB4501007A84A7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = Vendor/iniParser/README; sourceTree = "<group>"; };
+		EA27FA170ECB4501007A84A7 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = INSTALL; path = Vendor/iniParser/INSTALL; sourceTree = "<group>"; };
+		EA27FA180ECB4501007A84A7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = Vendor/iniParser/LICENSE; sourceTree = "<group>"; };
+		EA27FA1A0ECB4501007A84A7 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUTHORS; path = Vendor/iniParser/AUTHORS; sourceTree = "<group>"; };
 		EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gpl-2.0.txt"; sourceTree = "<group>"; };
 		EA27FA530ECB489E007A84A7 /* JHVPNSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHVPNSettingsController.h; sourceTree = "<group>"; };
 		EA27FA540ECB489E007A84A7 /* JHVPNSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHVPNSettingsController.m; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 		EA6E7ADD0ED4651F0033E3EC /* libiconv.dll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiconv.dll.a; sourceTree = "<group>"; };
 		EA6E7ADE0ED4651F0033E3EC /* libiconv.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libiconv.la; sourceTree = "<group>"; };
 		EA9FC1840ED37E5800D806B3 /* iPhone VPN Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone VPN Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9FC1860ED37E5800D806B3 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		EA9FC2260ED38BD600D806B3 /* libgcrypt.dll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgcrypt.dll.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,7 +203,6 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
-				EA9FC1860ED37E5800D806B3 /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -237,6 +235,7 @@
 				EA27FA200ECB4545007A84A7 /* gpl-2.0.txt */,
 			);
 			name = "cisco-decrypt";
+			path = "Vendor/cisco-decrypt";
 			sourceTree = "<group>";
 		};
 		EA27FA0F0ECB44A9007A84A7 /* iniParser */ = {
@@ -487,7 +486,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -504,7 +503,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
